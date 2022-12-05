@@ -1,0 +1,48 @@
+/* Card */
+
+.Card {
+    background-color: rgba(100, 0, 200, 50);
+    color: white;
+    width: 600px;
+    height: 340px;
+    text-align: center;
+    font-size: 1.6rem;
+    border-radius: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.InputField input[type='text'] {
+    background: none;
+    border: 0;
+    background-color: #404040;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.InputField input[type='text']:focus {
+    outline: 0;
+}
+
+/* Outcome */
+
+.Outcome {
+  width: 800px;
+  padding: 20px 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.Outcome.correct {
+  background-color: green;
+}
+
+.Outcome.incorrect {
+  background-color: maroon;
+}
